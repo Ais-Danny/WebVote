@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+ <mapper namespace="top.aisdanny">
+ 	<insert id="add">
+ 		insert into vote_data(roomId,name,telephone,time,choice) values (#{roomId},#{name},#{telephone},#{time},#{choice})
+ 	</insert>
+ 	<select id="selectRoomId" resultType="hashmap">
+ 	     select * from vote_data where roomId = #{roomId}
+ 	</select>
+ 	
+ 	<select id="selectOkNumber" resultType="hashmap">
+ 	     select * from vote_data where choice = '同意'
+ 	</select>
+ 	<select id="selectNoNumber" resultType="hashmap">
+ 	     select * from vote_data where choice = '不同意'
+ 	</select>
+ 	<select id="selectDefNumber" resultType="hashmap">
+ 	     select * from vote_data where choice = '弃权'
+ 	</select>
+ 	
+ 	<select id="selectValueData" resultType="hashmap">
+ 	     select * from vote_data
+ 	</select>
+ 	
+ 	<select id="selectUser" resultType="hashmap">
+ 	     select * from user where password = #{password}
+ 	</select>
+ </mapper>

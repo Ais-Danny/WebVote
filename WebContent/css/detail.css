@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+table{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+    font-family: "kaiti";
+}
+#inputPassword{
+    font-size: 40px;
+}
+#password{
+    height: 100px;
+    width: 70%;
+    border: 2px solid black;
+    font-size: 40px;
+}
+#data{
+    display: none;
+}
+#login{
+    border: 2px solid black;
+    font-size: 40px;
+    width: 20%;
+    height: 80px;
+}
+#inputTable{
+    height: 40px;
+    font-weight: bolder;
+}

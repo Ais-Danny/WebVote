@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height:100%;
+    width:100%;
+    font-family: "kaiti";
+}
+.title{
+    height:65px;
+    text-align: center;
+    margin-top:20px;
+    font-size: 40px;
+}
+
+.info{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin:auto;
+}
+
+.option{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+#submit{
+    width:80px;
+    height:25px;
+    margin-left: calc(50% - 50px);
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.option input{
+    width: 18px;
+    height: 18px;
+}
+.info input{
+    height: 30px;
+    width: 200px;
+}

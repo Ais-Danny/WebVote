@@ -1,0 +1,29 @@
+#top{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+body div{
+    text-align: center;
+}
+#okDiv{
+    height: 20px;
+    width: 135px;
+    border: 1px solid black;
+    margin: auto;
+}
+#okFill{
+    width: 0;
+    height: 100%;
+    background-color: aquamarine;
+}
+#noFill{
+    width: 0;
+    height: 100%;
+    background-color: aquamarine;
+}
+#undefFill{
+    width: 0;
+    height: 100%;
+    background-color: aquamarine;
+}
